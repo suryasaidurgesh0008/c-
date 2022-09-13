@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int u1,u2;
+	cout<<"enter the user name:";
+	cin>>u1;
+	cout<<"re-enter the user name:";
+	cin>>u2;
+	{
+	if(u1==u2)
+	cout<<"valid";
+	else;
+	cout<<"invalid \n";
+	}
+	return 0;
+}
