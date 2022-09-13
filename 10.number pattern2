@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int rows, columns, num ;
+    cout<<"enter the num value:";
+    cin>>num;
+    for (rows = 1; rows <= num; rows++){
+        for (columns = 1; columns <= rows; columns++) {
+            cout << rows << " ";
+        }
+        cout << "\n";
+    }
+    return 0;
+}
