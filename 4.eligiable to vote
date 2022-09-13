@@ -1,0 +1,26 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+string voteAge(int age)
+{
+  string str = "";
+  if(age >= 18)
+    str = "Eligible for Voting ";
+  else if(age<=0)
+     str="invalid";
+  else
+    str = "Not Eligible for Voting eligable after years", (18-age);
+	return str;
+}
+ 
+int main()
+{
+	int age;
+	cout<<"\nEnter age:";
+	cin>>age;
+ 
+  cout << voteAge(age)<<18-age<<endl;
+  
+	return 0;
+}
