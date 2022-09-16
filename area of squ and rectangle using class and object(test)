@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+class Area
+{
+public:
+    void output(int l, int b)
+    {
+        cout<<"Area of Rectangle is = "<<l*b<<"\n";
+        cout<<"area of square is= "<<l*l;
+    }
+};
+
+int main()
+{
+	int h,m,n;
+    Area obj;
+	cout<<"enter length of rectangle and length of square= ";
+    cin>>m;
+    cout<<"enter breadth of rectangle= ";
+    cin>>n;
+    obj.output(m,n);
+}
